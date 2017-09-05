@@ -21,3 +21,7 @@ even when a website sets user-scalable=no in the viewport.
 
 	window.scrollX 获取横向滚动条滚动距离
 	window.scrollY 获取垂直滚动条滚动距离
+	
+# **3** 取消文字选择
+	-webkit-user-select: none
+添加该样式你可让用户不能够选择文字，也不能执行copy，切ios/安卓都支持该值
