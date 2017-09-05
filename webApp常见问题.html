@@ -18,7 +18,10 @@
     <p></p>
     dsjfkldsajfdklsajfkdlsajfklds
     <script>
-        alert(window.scrollLeft, window.scrollTop)
+        window.onscroll = function (){
+            document.write(window.scrollX, window.scrollY)
+        }
+        
     </script>
 </body>
 </html>
